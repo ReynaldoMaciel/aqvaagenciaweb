@@ -50,6 +50,12 @@
 					<a href="#blog" rel="nofollow" title="Utilize blogs para melhorar sua presença na internet" alt="[Utilize blogs para melhorar sua presença na internet]">Blog</a>
 				</h1>
 			</article>
+			<article class="item">
+				<h1 class="item_title">
+					<a href="#analise" rel="nofollow" title="Utilize blogs para melhorar sua presença na internet" alt="[Utilize blogs para melhorar sua presença na internet]">Blog</a>
+				</h1>
+			</article>
+
 		</div>
 
 		<!-- FIM MENU -->
@@ -127,40 +133,35 @@
 		<h1>Porque vale a pena ter um blog?</h1>
 		<p class="tagline">Texto do Higor Fernando</p>
 	</article>
-	<!--article class="row redes_sociais">
-		<h1>Redes sociais</h1>
-		<p class="tagline">Nos siga nas redes sociais</p>
-			<a><span class="ds-none">facebook</span><i class="fa fa-facebook fa-4x"></i></a>
-			<a><span class="ds-none">twitter</span><i class="fa fa-twitter fa-4x"></i></a>	
-			<a><span class="ds-none">g+</span><i class="fa fa-google-plus fa-4x"></i></a>
-		
-	</article-->
-	<article class="analise">
-		<h1>Podemos fazer uma análise da sua empresa na internet e enviar nossa proposta</h1>
-		<p class="tagline"></p>
+	<article id="analise">
+		<h1>Podemos fazer uma análise da sua página na internet</h1>
+		<p class="tagline">"Um site que não gera conteúdo de qualidade, também não gera resultados"</p>
 		<form>
 			<div>
-			    <label for="site">Site da sua empresa</label>
-			    <input type="email" class=" campo" id="email" placeholder="Site que iremos analisar">
+			    <label for="site">Sua página na internet</label>
+			    <input type="email" class=" campo" id="email">
 			</div>
 			<div>
 			    <label for="email">Seu email</label>
-			    <input type="email" class=" campo" id="email" placeholder="Email que receberá a proposta">
+			    <input type="email" class=" campo" id="email">
 			</div>
-			<p class="text-help">***Estaremos enviando a proposta e nenhum email a mais***</p>
-			<button type="submit" class="btn btn-warning">Quero receber uma proposta!</button>
+			<button type="submit" class="btn btn-warning" >Quero que analisem minha página!</button>
+			<p class="font-bold">***Estaremos enviando a análise e nenhum email a mais***</p>
 		</form>
 	</article>
-	<article>
-		<h1>Não Possui um site?</h1>
-		<p class="tagline">Entramos em contato com você</p>
+	<article class="row semsite">
+		<h1>Não Possui um site ou rede social?</h1>
+		<p class="tagline">Enviamos nossa tabela de preços para você!</p>
 		<form>
-			<label for="email">Seu Email</label>
-			<input type="text" name="email">
+			<div>
+			    <label for="email">Seu email</label>
+			    <input type="email" class="campo" id="email" >
+			</div>
+			<button type="submit" class="btn btn-success">Me envie a tabela!</button>
 		</form>
 	</article>
 	<nav>
-		<h1>Aqva - Agência Web</h1>
+		<h1 class="font0">Aqva - Agência Web</h1>
 		<ul>
 			<li>
 				<a href="#SEO" title="Otimize seu site para o Google e melhore sua posição nas buscas" 
