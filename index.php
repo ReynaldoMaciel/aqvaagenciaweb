@@ -86,11 +86,13 @@
 			<p class="tagline">Antes de iniciar o projeto <strong>fazemos uma pesquisa para descobrir quais palavras-chave seus concorrentes estão usando</strong>, quais estão sendo pouco usadas e qual o seu avatar(público-alvo), tudo isso para criar uma estratégia que possibilite a sua empresa realmente <strong>converter os visitantes do seu site em clientes</strong></p>
 		</div>		
 	</article>
-	<article id="SMO">
-		<h1>Otimização para redes sociais</h1>
-		<span>Social Media Optimization</span>
-		<p class="tagline">Estar presente nas redes sociais é importante e pode trazer mais visitantes ao seu site, utilizamos ferramentas que permitem saber quantas pessoas estão saindo da sua página no facebook e entrando no seu site, melhorando nossa estratégia e entendo cada vez mais o seu público</p>
-		<img src="./img/redes-sociais.png" alt="[]" title="">
+	<article id="SMO" class="row">
+		<h1 class="col-xs-12">Otimização de redes sociais</h1>
+		<span class="col-xs-12">Social Media Optimization</span>
+		<div class="container">
+		<img src="./img/redes-sociais.png" class="img-responsive col-xs-6" alt="[]" title="">
+		<p class="tagline col-xs-6">Estar presente nas redes sociais é importante e pode <strong>trazer mais visitantes ao seu site</strong>, utilizamos ferramentas que permitem saber <strong>quantas pessoas estão saindo da sua página no facebook e entrando no seu site</strong>, melhorando nossa estratégia e entendo cada vez mais o seu público</p>
+		</div>
 	</article>
 	<article id="email_marketing">
 		<h1>O email está morrendo?</h1>

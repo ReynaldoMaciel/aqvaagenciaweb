@@ -5,11 +5,12 @@
 @import "./overrides";
 
 .main_menu{
-	padding:20px 100px;
+	padding:7px 100px;
 	font-weight:200;
 	background:url(../img/intro-bg.fw.png) fixed bottom no-repeat #000;
 	height:650px;
 	color:$color1;
+	border-bottom:20px darken($color3, 25%) solid;
 	img{
 		height:auto;
 		width:100px;
@@ -30,7 +31,7 @@
 	    text-decoration: none;
 	}
 	.item_title{
-		font-size:1.3em;
+		font-size:1.1em;
 		margin:0px;
 		padding:15px 10px;
 		color:white;
@@ -73,6 +74,10 @@
 		margin-top: 0;		
 		padding-top:100px;
 		font-weight: bolder;
+		font-size: 3em;
+	}
+	p{		
+		font-size: 1.4em;
 	}
 	span{
 		font-weight: 600;
@@ -81,25 +86,57 @@
 	.tagline{
 		margin-top:40px;
 	}
-	.content_text{
-		padding:10%;
-	}
 	.content_image{
 		padding:10%;
 	}
 }
 #SEO{
 	background-color:white;
-	color:black;
+	color:$color3;
+	.content_text{
+		padding:10% 0% 10% 10%;
+	}
+	h1{
+		color:darken($color3, 15%);
+	}
+	p{
+		color:darken($color3, 15%);
+	}
 	img{
 		width: 270px;
 		height: auto;
+		box-shadow: 0px 20px 20px #888888;
 	}
 }
 #SEM{
+	border-top:20px darken($color3, 25%) solid;
 	background-color:$color3;
-	color:white;
+	color:lighten(black, 20%);
+	.content_text{
+		padding:10% 10% 10% 0%;
+	}
 	img{
 		margin-top: 100px;
+		border:7px solid darken($color3, 35%);
 	}
+	box-shadow: 0px 20px 20px #888888;
+}
+#SMO{
+	text-align:center;
+	color:$color3;
+	h1{
+		font-size: 3.2em;
+		color:darken($color3, 15%);
+	}
+	p{
+		text-align: left;
+		padding-left: 5%;
+		color:darken($color3, 15%);
+	}
+	span{
+		margin-bottom: 70px;
+	}
+}
+#email_marketing{
+	margin-top:90px;
 }
