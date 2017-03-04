@@ -14,7 +14,7 @@
 	img{
 		height:auto;
 		width:100px;
-		color: white;
+		color: $color1;
 	}
 	.list_links{
 		float:right;
@@ -27,14 +27,14 @@
 		color:$color1;
 	}
 	a:hover, a:focus {
-	    color: darken(white, 10%);
+	    color: darken($color1, 10%);
 	    text-decoration: none;
 	}
 	.item_title{
 		font-size:1.1em;
 		margin:0px;
 		padding:15px 10px;
-		color:white;
+		color:$color1;
 		text-transform: uppercase;
 	}
 }
@@ -91,7 +91,7 @@
 	}
 }
 #SEO{
-	background-color:white;
+	background-color:$color1;
 	color:$color3;
 	.content_text{
 		padding:10% 0% 10% 10%;
@@ -144,7 +144,11 @@
 	text-align:center;	
 	box-shadow: 0px 20px 20px #888888;
 	padding-bottom:50px;
-	color:white;
+	color:$color1;
+	.item{
+		width: 33%;
+		display: inline-block;
+	}
 	h1{
 		padding-top:20px;
 		// text-transform: uppercase;
@@ -153,7 +157,7 @@
 		margin-top: 20px;
 		width: 33%;
 		padding:10px;
-		color:darken(white, 5%);
+		color:darken($color1, 5%);
 		// margin-left: 25%;
 		display: inline-block;
 	}
@@ -174,7 +178,7 @@
 #visibilidade{
 	border:30px darken($color3, 25%) solid;
 	background-color:$color3;
-	color:white;
+	color:$color1;
 	text-align:center;
 	margin-top:40px;
 	.content_text{
@@ -182,10 +186,39 @@
 	}
 	box-shadow: 0px 20px 20px #888888;
 }
-.redes_sociais{
+.analise{
+	background:url(../img/form-bg.fw.png) center no-repeat;
+	color:black;
 	text-align:center;
-	article{
-		display: inline-block;
-		padding:20px;
+	padding:30px 0  100px;
+	h1{
+		font-size: 3.3em;
+		font-weight: 700;
+		padding-top: 40px;
+		width: 70%;
+		margin-left: 15%;
 	}
-} 
+	label{
+		text-align: left;
+		margin-top: 20px;
+		color:darken(gray, 25%);
+	}
+	.campo{
+		border-radius:0;
+		-moz-border-radius:0;
+		-webkit-border-radius:0;
+		width: 70%;
+		margin:10px 15% ;
+		padding:20px;
+		color:black;
+	}
+	.campo:hover, .campo:focus{
+		outline:darken($color2, 5%) solid thick;	
+	}
+	.btn{
+		background-color:$color2;
+		width: 40%;
+		height: 50px;
+		font-size: 1.8em;
+	}
+}

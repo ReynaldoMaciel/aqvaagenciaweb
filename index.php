@@ -98,15 +98,15 @@
 		<div class="content_text">
 			<h1>3 razões para começar a fazer email marketing</h1>
 			<article>
-				<img src="./img/email-marketing.png" alt="[]" title="">				
+				<h1><img src="./img/email-marketing.png" alt="[]" title=""></h1>				
 				<p class="tagline">Ao contrário do que muitos pensam o <strong>email não está morrendo</strong>, pelo contrário cada vez mais aquelas correntes, brincadeiras e piadas que recebiamos frequentemente estão saindo do email e indo para o whatsapp. </p>
 			</article>
 			<article>
-				<p class="tagline"><strong>Os spams estão ficando cada vez menos recorrentes</strong> devido a facilidade que os usuários tem de denunciar e bloquear aqueles que enviam conteúdo desnecessário. </p>
-				<img src="./img/email-marketing2.png" alt="[]" title="">				
+				<h1><img src="./img/email-marketing2.png" alt="[]" title=""></h1>				
+				<p class="tagline"><strong>Os spams estão ficando cada vez menos recorrentes</strong> devido a facilidade que os usuários tem de denunciar e bloquear aqueles que enviam conteúdo desnecessário. </p>				
 			</article>
 			<article>
-				<img src="./img/email-marketing3.png" alt="[]" title="">				
+				<h1><img src="./img/email-marketing3.png" alt="[]" title=""></h1>				
 				<p class="tagline"><strong>O email evoluiu para uma ferramenta de trabalho séria</strong> onde as pessoas só querem receber conteúdo de qualidade, nós acreditamos que cada empresa tem muito a oferecer aos seus clientes e trabalhamos para conectar aqueles que tem algo a oferecer com aqueles que precisam!</p>
 			</article>		
 		</div>
@@ -127,31 +127,35 @@
 		<h1>Porque vale a pena ter um blog?</h1>
 		<p class="tagline">Texto do Higor Fernando</p>
 	</article>
-	<article class="row redes_sociais">
+	<!--article class="row redes_sociais">
 		<h1>Redes sociais</h1>
 		<p class="tagline">Nos siga nas redes sociais</p>
 			<a><span class="ds-none">facebook</span><i class="fa fa-facebook fa-4x"></i></a>
 			<a><span class="ds-none">twitter</span><i class="fa fa-twitter fa-4x"></i></a>	
 			<a><span class="ds-none">g+</span><i class="fa fa-google-plus fa-4x"></i></a>
 		
-	</article>
-	<article>
-		<h1>Podemos fazer uma análise da sua empresa e enviar nossa proposta</h1>
-		<p class="tagline">Estaremos analisando suas informações e enviaremos uma proposta exclusiva para você</p>
+	</article-->
+	<article class="analise">
+		<h1>Podemos fazer uma análise da sua empresa na internet e enviar nossa proposta</h1>
+		<p class="tagline"></p>
 		<form>
-			<label for="name">Nome da sua empresa</label>
-			<input type="text" name="name">
-			<label for="email">Email da sua empresa</label>
-			<input type="text" name="email" >
-			<label for="site">Site da sua empresa</label>
-			<input type="text" name="site">
+			<div>
+			    <label for="site">Site da sua empresa</label>
+			    <input type="email" class=" campo" id="email" placeholder="Site que iremos analisar">
+			</div>
+			<div>
+			    <label for="email">Seu email</label>
+			    <input type="email" class=" campo" id="email" placeholder="Email que receberá a proposta">
+			</div>
+			<p class="text-help">***Estaremos enviando a proposta e nenhum email a mais***</p>
+			<button type="submit" class="btn btn-warning">Quero receber uma proposta!</button>
 		</form>
 	</article>
 	<article>
 		<h1>Não Possui um site?</h1>
 		<p class="tagline">Entramos em contato com você</p>
 		<form>
-			<label for="email">Email da sua empresa</label>
+			<label for="email">Seu Email</label>
 			<input type="text" name="email">
 		</form>
 	</article>
