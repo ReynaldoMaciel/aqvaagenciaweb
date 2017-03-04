@@ -94,23 +94,66 @@
 		<p class="tagline col-xs-6">Estar presente nas redes sociais é importante e pode <strong>trazer mais visitantes ao seu site</strong>, utilizamos ferramentas que permitem saber <strong>quantas pessoas estão saindo da sua página no facebook e entrando no seu site</strong>, melhorando nossa estratégia e entendo cada vez mais o seu público</p>
 		</div>
 	</article>
-	<article id="email_marketing">
-		<h1>O email está morrendo?</h1>
-		<p class="tagline">Ao contrário do que muitos pensam o email não está se morrendo, pelo contrário cada vez mais aquelas correntes, brincadeiras e piadas que recebiamos frequentemente estão saindo do email e indo para o whatsapp. Os spams estão ficando cada vez menos recorrentes devido a facilidade que os usuários tem de denunciar e bloquear aqueles que enviam conteúdo desnecessário. O email evoluiu para uma ferramenta de trabalho séria onde as pessoas só querem receber conteúdo de qualidade, nós acreditamos que cada empresa tem muito a oferecer aos seus clientes e trabalhamos para conectar aqueles que tem algo a oferecer com aqueles que precisam!</p>
+	<section id="email_marketing" class="row">
+		<div class="content_text">
+			<h1>3 razões para começar a fazer email marketing</h1>
+			<article>
+				<img src="./img/email-marketing.png" alt="[]" title="">				
+				<p class="tagline">Ao contrário do que muitos pensam o <strong>email não está morrendo</strong>, pelo contrário cada vez mais aquelas correntes, brincadeiras e piadas que recebiamos frequentemente estão saindo do email e indo para o whatsapp. </p>
+			</article>
+			<article>
+				<p class="tagline"><strong>Os spams estão ficando cada vez menos recorrentes</strong> devido a facilidade que os usuários tem de denunciar e bloquear aqueles que enviam conteúdo desnecessário. </p>
+				<img src="./img/email-marketing2.png" alt="[]" title="">				
+			</article>
+			<article>
+				<img src="./img/email-marketing3.png" alt="[]" title="">				
+				<p class="tagline"><strong>O email evoluiu para uma ferramenta de trabalho séria</strong> onde as pessoas só querem receber conteúdo de qualidade, nós acreditamos que cada empresa tem muito a oferecer aos seus clientes e trabalhamos para conectar aqueles que tem algo a oferecer com aqueles que precisam!</p>
+			</article>		
+		</div>
+	</section>
+	<article id="landingpage" class="row">
+		<div class="container">
+			<h1>O que são Landing Pages?</h1>
+			<p class="tagline content">Landing Pages são páginas que tem obejtivos claros como: coletar um email, descobrir o interesse do visitante ou vender um produto, caso você já tenha um site com outra estrutura e não queira alterá-lo, podemos criar uma landing page que é totalmente independente do resto do site. Quando a landing page estiver gerando resultados e você achar conveniente podemos aplicar a otimização no resto do site</p>
+			<img src="./img/landing-page.png" alt="[]" title="">
+		</div>
 	</article>
-	<article id="landingpage">
-		<h1>O que são Landing Pages?</h1>
-		<p class="tagline">Landing Pages são páginas que tem obejtivos claros como: coletar um email, descobrir o interesse do visitante ou vender um produto, caso você já tenha um site com outra estrutura e não queira alterá-lo, podemos criar uma landing page que é totalmente independente do resto do site. Quando a landing page estiver gerando resultados e você achar conveniente podemos aplicar a otimização no resto do site</p>
-		<img src="./img/landing-page.png" alt="[]" title="">
-	</article>
-	<article id="visibilidade">
+	<article id="visibilidade" class="row">
 		<h1>Publicidade Física X Publicidade na internet</h1>
-		<p class="tagline">Panfletos, outdoors, rádios e outras mídias físicas são formas de anunciar seu produto, porém podemos garantir que não são tão efetivas quanto a internet, sabe quando você busca por um produto em site de vendas e depois entra em outro site e começa a ver propagandas relacionadas ao produto que você estava procurando?
+		<p class="tagline content_text">Panfletos, outdoors, rádios e outras mídias físicas são formas de anunciar seu produto, porém podemos garantir que esses meios não são tão efetivos quanto a internet, sabe quando você busca por um produto em um site de vendas e depois entra em outro site e começa a ver propagandas relacionadas ao produto que você estava procurando?
 		É desse tipo de estratégia que estamos falando!!!</p>
 	</article>
 	<article id="blog">
 		<h1>Porque vale a pena ter um blog?</h1>
 		<p class="tagline">Texto do Higor Fernando</p>
+	</article>
+	<article class="row redes_sociais">
+		<h1>Redes sociais</h1>
+		<p class="tagline">Nos siga nas redes sociais</p>
+			<a><span class="ds-none">facebook</span><i class="fa fa-facebook fa-4x"></i></a>
+			<a><span class="ds-none">twitter</span><i class="fa fa-twitter fa-4x"></i></a>	
+			<a><span class="ds-none">g+</span><i class="fa fa-google-plus fa-4x"></i></a>
+		
+	</article>
+	<article>
+		<h1>Podemos fazer uma análise da sua empresa e enviar nossa proposta</h1>
+		<p class="tagline">Estaremos analisando suas informações e enviaremos uma proposta exclusiva para você</p>
+		<form>
+			<label for="name">Nome da sua empresa</label>
+			<input type="text" name="name">
+			<label for="email">Email da sua empresa</label>
+			<input type="text" name="email" >
+			<label for="site">Site da sua empresa</label>
+			<input type="text" name="site">
+		</form>
+	</article>
+	<article>
+		<h1>Não Possui um site?</h1>
+		<p class="tagline">Entramos em contato com você</p>
+		<form>
+			<label for="email">Email da sua empresa</label>
+			<input type="text" name="email">
+		</form>
 	</article>
 	<nav>
 		<h1>Aqva - Agência Web</h1>
@@ -141,39 +184,6 @@
 			</li>
 		</ul>		
 	</nav>
-	<section>
-		<h1>Redes sociais</h1>
-		<p class="tagline">Nos siga nas redes sociais</p>
-		<article>
-			<h1>facebook</h1>
-		</article>
-		<article>
-			<h1>twitter</h1>
-		</article>
-		<article>
-			<h1>g+</h1>
-		</article>
-	</section>
-	<article>
-		<h1>Podemos fazer uma análise da sua empresa e enviar nossa proposta</h1>
-		<p class="tagline">Estaremos analisando suas informações e enviaremos uma proposta exclusiva para você</p>
-		<form>
-			<label for="name">Nome da sua empresa</label>
-			<input type="text" name="name">
-			<label for="email">Email da sua empresa</label>
-			<input type="text" name="email" >
-			<label for="site">Site da sua empresa</label>
-			<input type="text" name="site">
-		</form>
-	</article>
-	<article>
-		<h1>Não Possui um site?</h1>
-		<p class="tagline">Entramos em contato com você</p>
-		<form>
-			<label for="email">Email da sua empresa</label>
-			<input type="text" name="email">
-		</form>
-	</article>
 	<div class="copyright">
 		<span>Todos os direitos reservados a Aqva - Agência WEB</span>
 	</div>
