@@ -76,10 +76,15 @@
 	</article>
 
 
-	<article id="SEM">
-		<h1>Marketing de mecânismos de busca</h1>
-		<span>Search Engine Marketing</span>
-		<p class="tagline">Antes de iniciar o projeto fazemos uma pesquisa para descobrir quais palavras-chave seus concorrentes estão usando, quais estão sendo pouco usadas e qual o seu avatar(público-alvo), tudo isso para criar uma estratégia que possibilite a sua empresa realmente converter os visitantes do seu site em clientes</p>
+	<article id="SEM" class="row">
+		<div class="col-xs-6 content_image">
+			<img src="./img/SEM.png" alt="[]" title="" class="img-responsive">
+		</div>
+		<div class="col-xs-6 content_text">
+			<h1>Marketing de mecânismos de busca</h1>
+			<span>Search Engine Marketing</span>
+			<p class="tagline">Antes de iniciar o projeto fazemos uma pesquisa para descobrir quais palavras-chave seus concorrentes estão usando, quais estão sendo pouco usadas e qual o seu avatar(público-alvo), tudo isso para criar uma estratégia que possibilite a sua empresa realmente converter os visitantes do seu site em clientes</p>
+		</div>		
 	</article>
 	<article id="SMO">
 		<h1>Otimização para redes sociais</h1>
