@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class="main_menu">
-		<h1 class="ds-none">Aqva - Melhore sua posição na busca do google com SEO, campanhas no facebook, adwords, crie seu blog e deixe a gestão de conteúdo com a gente</h1>
+		<h1 class="font0">Aqva - Melhore sua posição na busca do google com SEO, campanhas no facebook, adwords, crie seu blog e deixe a gestão de conteúdo com a gente</h1>
 		<img src="./img/logo.fw.png" alt="[Logo Aqva]" title="Logo Aqva"><i class="fa fa-play-circle fa-2x"></i>
 		<div class="list_links">
 			<article class="item">
@@ -68,7 +68,7 @@
 		<div class="col-xs-6 content_text">
 			<h1>Otimização para mecânismos de busca </h1>
 			<span>Search Engine Optimization</span>
-			<p class="tagline">Fazer o Google entender o que o seu site contém  e sobre o que ele está falando é essencial para qualquer site, nós analizamos o seu código e melhoramos ele. Cada degrau em que o seu site sobe nas buscas do Google, pode significar um aumento considerável de visitas no seu site.</p>
+			<p class="tagline"><strong>Fazer o Google entender o que o seu site contém</strong>  e sobre o que ele está falando é essencial para qualquer site, nós analizamos o seu código e melhoramos ele. <strong>Cada degrau em que o seu site sobe nas buscas do Google</strong>, pode significar um aumento considerável de visitas no seu site.</p>
 		</div>	
 		<div class="col-xs-6 content_image">
 			<img src="./img/SEO.png" alt="[]" title="" class="img-responsive">	
@@ -83,7 +83,7 @@
 		<div class="col-xs-6 content_text">
 			<h1>Marketing de mecânismos de busca</h1>
 			<span>Search Engine Marketing</span>
-			<p class="tagline">Antes de iniciar o projeto fazemos uma pesquisa para descobrir quais palavras-chave seus concorrentes estão usando, quais estão sendo pouco usadas e qual o seu avatar(público-alvo), tudo isso para criar uma estratégia que possibilite a sua empresa realmente converter os visitantes do seu site em clientes</p>
+			<p class="tagline">Antes de iniciar o projeto <strong>fazemos uma pesquisa para descobrir quais palavras-chave seus concorrentes estão usando</strong>, quais estão sendo pouco usadas e qual o seu avatar(público-alvo), tudo isso para criar uma estratégia que possibilite a sua empresa realmente <strong>converter os visitantes do seu site em clientes</strong></p>
 		</div>		
 	</article>
 	<article id="SMO">

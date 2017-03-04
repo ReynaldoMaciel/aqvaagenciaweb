@@ -7,9 +7,9 @@
 .main_menu{
 	padding:20px 100px;
 	font-weight:200;
-	background:url(../img/intro-bg.jpg) bottom center no-repeat #000;
+	background:url(../img/intro-bg.fw.png) fixed bottom no-repeat #000;
 	height:650px;
-	color:white;
+	color:$color1;
 	img{
 		height:auto;
 		width:100px;
@@ -23,7 +23,7 @@
 		display:inline-block;	
 	}
 	a{
-		color:white;
+		color:$color1;
 	}
 	a:hover, a:focus {
 	    color: darken(white, 10%);
@@ -64,7 +64,7 @@
 		border-radius: 100%;
 		-webkit-border-radius: 100%;
 		-moz-border-radius: 100%;
-		border:2px white solid;
+		border:2px $color1 solid;
 	}
 }
 .row{
@@ -97,6 +97,8 @@
 	}
 }
 #SEM{
+	background-color:$color3;
+	color:white;
 	img{
 		margin-top: 100px;
 	}

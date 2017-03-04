@@ -1,23 +1,3 @@
-/*BACKGROUND*/
-.bg1{background-color: #000000;}/*PRETO*/
-.bg2{background-color: white;}
-.bg3{background-color: #101010;}/*PRETO CLARO*/
-.bg4{background-color: #FFD800;}
-.bg5{background-color: #888888;}
-/*COLORS*/
-.color1{color: white;}
-.color2{color: #FF0A0A;}/*VERMELHO*/
-.color3{color: #FFA800;}/*LARANJA*/
-.color4{color: #0000FF;}/*AZUL*/
-.color5{color: #00FFEA;}/*AZUL CLARO*/
-/*BOTÕES*/
-.btn{padding: 10px 25px;font-weight: bold;
-border:none;}
-.btn1{background-color: #00a737;color: white;}
-.btn2{background-color: #FF0024;color: white;}
-.btn3{background-color: black;color: white;}
-.btn:hover{cursor: pointer;}
-
 /*CENTRALIZADOR*/
 .align-center{display: block;margin: 0 auto;}
 /*DISPLAYS*/
@@ -65,10 +45,6 @@ textarea{padding: 10px;height: 80px;}
 .marginbottom2{margin-bottom: 20px;}
 .marginbottom3{margin-bottom: 30px;}
 .marginbottom4{margin-bottom: 40px;}
-/*BACK TO TOP*/
-.scrollToTop{padding:10px;background: none;font-weight: bold;color: gray;text-decoration: none;position:fixed;
-border: 1px solid gray;border-radius: 50%;bottom:2%;right:1%;display:none;transition: 1s all ease-in;}
-.scrollToTop:hover{background: black;color:white;cursor: pointer;}
 /*MIDIAS SOCIAIS*/
 .fa{min-width: 30px;padding: 5px;}
 .fa-facebook{color: #FFFFFF;background-color: #2A00FF;padding-left: 20px;}
