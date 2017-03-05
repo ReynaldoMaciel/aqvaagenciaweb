@@ -5,13 +5,17 @@
 @import "./helpers";
 @import "./overrides";
 
-.main_menu{
+.cabecalho{
 	padding:7px 100px;
 	font-weight:200;
 	background:url(../img/intro-bg.fw.png) fixed bottom no-repeat #000;
 	height:650px;
 	color:$color1;
 	border-bottom:20px darken($color3, 25%) solid;
+	.logo{
+		width:200px;
+		display: inline-block;
+	}
 	img{
 		height:auto;
 		width:100px;
@@ -28,12 +32,11 @@
 		color:$color1;
 	}
 	.list_links a{
-		padding:8px 8px;
+		padding:16px 8px;
 		transition: .2s linear;
 	}
 	.list_links a:hover{
-		padding:16px 8px;
-	    background-color:darken($color3, 8%);
+	    background-color:darken($color3, 14%);
 	    text-decoration: none;
 	}
 	.item_title{
@@ -46,13 +49,20 @@
 	.special a{
 		color: white;
 		// font-weight: 600;
-		background-color:darken($color3, 13%);
-		padding:12px;
+		background-color:darken($color3, 22%);
 		border-radius:7px;
 	}
 	.special a:hover{
-		background-color:darken($color3, 22%);
+		background-color:darken($color3, 26%);
 	}
+}
+.fixed{
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+	background-color:darken($color3, 10%);
+	z-index:99;
 }
 
 .banner{
@@ -207,7 +217,8 @@
 	border-bottom:20px darken($color3, 5%) solid;
 	background:url(../img/form-bg.fw.png) center no-repeat;
 	text-align:center;
-	padding:10px 0  20px;
+	padding:200px 0  20px;
+	height:700px;
 	h1{
 		font-size: 3em;
 		font-weight: 700;

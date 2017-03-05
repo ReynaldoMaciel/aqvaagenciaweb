@@ -14,7 +14,7 @@ gulp.task('sass', function () {
  
 gulp.task('minify:js', function (cb) {
   pump([
-        gulp.src('js/libs/**/*.js'),
+        gulp.src('js/**/*.js'),
         uglify(),
         gulp.dest('./dist')
     ],
@@ -24,4 +24,8 @@ gulp.task('minify:js', function (cb) {
 
 gulp.task('sass:watch', function () {
   gulp.watch('./sass/**/*.scss', ['sass']);
+});
+
+gulp.task('js:watch', function () {
+  gulp.watch('./js/**/*.js', ['minify:js']);
 });

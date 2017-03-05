@@ -3,58 +3,63 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Aqva - Melhore sua posição na busca do google com SEO, campanhas no facebook, adwords, crie seu blog e deixe a gestão de conteúdo com a gente</title>
-	<meta name="description" content="Aqva - Melhore sua posição na busca do google com SEO, campanhas no facebook, adwords, crie seu blog e deixe a gestão de conteúdo com a gente"/>
+	<title>Aqva - Melhore sua posição na busca do google com SEO, campanhas no facebook, adwords, crie e gerencie o conteúdo do seu blog</title>
+	<meta name="description" content="Aqva - Melhore sua posição na busca do google com SEO, campanhas no facebook, adwords, crie e gerencie o conteúdo do seu blog"/>
 	<link rel="stylesheet" href="./dist/style.css">
 </head>
 <body>
-	<div class="main_menu">
-		<h1 class="font0">Aqva - Melhore sua posição na busca do google com SEO, campanhas no facebook, adwords, crie seu blog e deixe a gestão de conteúdo com a gente</h1>
-		<img src="./img/logo.fw.png" alt="[Logo Aqva]" title="Logo Aqva"><i class="fa fa-play-circle fa-2x"></i>
-		<div class="list_links">
-			<article class="item">
-				<h1 class="item_title">
-					<a href="#SEO" rel="nofollow" title="Otimize seu site para o Google e melhore sua posição nas buscas" 
-									alt="Otimize seu site para o Google e melhore sua posição nas buscas">SEO</a>
-				</h1>
-			</article>
-			<article class="item">
-				<h1 class="item_title">
-					<a href="#SEM" rel="nofollow" title="Conheça quais palavras chaves são mais utilizadas e melhore seu posicionamento" alt="[Conheça quais palavras chaves são mais utilizadas e melhore seu posicionamento]">SEM</a>
-				</h1>
-			</article>
-			<article>
-				<h1 class="item_title">
-					<a href="#SMO" rel="nofollow" title="Utilize as redes sociais para atrair pessoas para o seu site/blog" 
-									alt="[Utilize as redes sociais para atrair pessoas para o seu site/blog]">SMO</a>
-				</h1>
-			</article>
-			<article class="item">
-				<h1 class="item_title">
-					<a href="#email_marketing" rel="nofollow" title="Utilize estratégias para captar emails de possíveis clientes" 
-									alt="[Utilize estratégias para captar emails de possíveis clientes]">Email Marketing</a>
-				</h1>
-			</article>
-			<article class="item">
-				<h1 class="item_title">
-					<a href="#landingpage" rel="nofollow" title="Crie uma landing page para explicar seu produto e fazer sua oferta"			alt="[Crie uma landing page para explicar seu produto e fazer sua oferta]">Landing Page</a>
-				</h1>
-			</article>
-			<article class="item">
-				<h1 class="item_title">
-					<a href="#visibilidade" rel="nofollow" title="Estar presente na internet é um diferencial de mercado"			alt="[Estar presente na internet é um diferencial de mercado]">Visibilidade</a>
-				</h1>
-			</article>
-			<article class="item">
-				<h1 class="item_title">
-					<a href="#blog" rel="nofollow" title="Utilize blogs para melhorar sua presença na internet" alt="[Utilize blogs para melhorar sua presença na internet]">Blog</a>
-				</h1>
-			</article>
-			<article class="item">
-				<h1 class="item_title special ">
-					<a class="pulse animated" href="#analise" rel="nofollow" title="Receba uma análise do seu site" alt="[Receba uma análise do seu site]"><i class="fa fa-bar-chart"></i>Análise</a>
-				</h1>
-			</article>
+	<div class="cabecalho">
+		<h1 class="font0">Aqva - Melhore sua posição na busca do google com SEO, campanhas no facebook, adwords, crie e gerencie o conteúdo do seu blog</h1>
+		<div class="main_menu">
+			<div class="logo">
+				<img src="./img/logo.fw.png" alt="[Logo Aqva]" title="Logo Aqva" />
+				<i class="fa fa-play-circle fa-2x"></i>
+			</div>
+			<div class="list_links">
+				<article class="item">
+					<h1 class="item_title">
+						<a href="#SEO" rel="nofollow" title="Otimize seu site para o Google e melhore sua posição nas buscas" 
+										alt="Otimize seu site para o Google e melhore sua posição nas buscas">SEO</a>
+					</h1>
+				</article>
+				<article class="item">
+					<h1 class="item_title">
+						<a href="#SEM" rel="nofollow" title="Conheça quais palavras chaves são mais utilizadas e melhore seu posicionamento" alt="[Conheça quais palavras chaves são mais utilizadas e melhore seu posicionamento]">SEM</a>
+					</h1>
+				</article>
+				<article>
+					<h1 class="item_title">
+						<a href="#SMO" rel="nofollow" title="Utilize as redes sociais para atrair pessoas para o seu site/blog" 
+										alt="[Utilize as redes sociais para atrair pessoas para o seu site/blog]">SMO</a>
+					</h1>
+				</article>
+				<article class="item">
+					<h1 class="item_title">
+						<a href="#email_marketing" rel="nofollow" title="Utilize estratégias para captar emails de possíveis clientes" 
+										alt="[Utilize estratégias para captar emails de possíveis clientes]">Email Marketing</a>
+					</h1>
+				</article>
+				<article class="item">
+					<h1 class="item_title">
+						<a href="#landingpage" rel="nofollow" title="Crie uma landing page para explicar seu produto e fazer sua oferta"			alt="[Crie uma landing page para explicar seu produto e fazer sua oferta]">Landing Page</a>
+					</h1>
+				</article>
+				<article class="item">
+					<h1 class="item_title">
+						<a href="#visibilidade" rel="nofollow" title="Estar presente na internet é um diferencial de mercado"			alt="[Estar presente na internet é um diferencial de mercado]">Visibilidade</a>
+					</h1>
+				</article>
+				<article class="item">
+					<h1 class="item_title">
+						<a href="#blog" rel="nofollow" title="Utilize blogs para melhorar sua presença na internet" alt="[Utilize blogs para melhorar sua presença na internet]">Blog</a>
+					</h1>
+				</article>
+				<article class="item">
+					<h1 class="item_title special ">
+						<a class="" href="#analise" rel="nofollow" title="Receba uma análise do seu site" alt="[Receba uma análise do seu site]"><i class="fa fa-bar-chart"></i>Análise</a>
+					</h1>
+				</article>
+			</div>
 
 		</div>
 
@@ -145,19 +150,19 @@
 			    <label for="email">Seu email</label>
 			    <input type="email" class=" campo" id="email">
 			</div> -->
-			<button type="submit" class="btn btn-info" >Quero uma análise!</button>
+			<button type="button" class="btn btn-info" >Quero uma análise!</button>
 			<p class="font-bold">***Aqui deve abrir um modal***</p>
 		</form>
 	</article>
 	<article class="row semsite">
 		<h1>Não Possui um site?</h1>
-		<p class="tagline">Enviamos nossa tabela de preços para você!</p>
+		<p class="tagline">Enviamos nossa cartilha de propostas para você!</p>
 		<form>
 			<div>
 			    <label for="email">Seu email</label>
 			    <input type="email" class="campo" id="email" >
 			</div>
-			<button type="submit" class="btn btn-success">Me envie a tabela!</button>
+			<button type="button" class="btn btn-success">Me envie a cartilha!</button>
 		</form>
 	</article>
 	<nav>
@@ -194,5 +199,6 @@
 		</div>
 	</nav>
 	<script src="./dist/jquery/jquery.js"></script>
+	<script src="./dist/script.js"></script>
 </body>
 </html>
