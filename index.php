@@ -137,16 +137,16 @@
 		<h1>Podemos fazer uma análise do seu site</h1>
 		<p class="tagline">"Um site que não gera conteúdo de qualidade, também não gera resultados"</p>
 		<form>
-			<div>
+			<!-- <div>
 			    <label for="site">Sua página na internet</label>
 			    <input type="email" class=" campo" id="email">
 			</div>
 			<div>
 			    <label for="email">Seu email</label>
 			    <input type="email" class=" campo" id="email">
-			</div>
+			</div> -->
 			<button type="submit" class="btn btn-info" >Quero uma análise!</button>
-			<p class="font-bold">***Estaremos enviando a análise e nenhum email a mais***</p>
+			<p class="font-bold">***Aqui deve abrir um modal***</p>
 		</form>
 	</article>
 	<article class="row semsite">
