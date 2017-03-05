@@ -51,8 +51,8 @@
 				</h1>
 			</article>
 			<article class="item">
-				<h1 class="item_title">
-					<a href="#analise" rel="nofollow" title="Utilize blogs para melhorar sua presença na internet" alt="[Utilize blogs para melhorar sua presença na internet]">Blog</a>
+				<h1 class="item_title special ">
+					<a class="pulse animated" href="#analise" rel="nofollow" title="Receba uma análise do seu site" alt="[Receba uma análise do seu site]"><i class="fa fa-bar-chart"></i>Análise</a>
 				</h1>
 			</article>
 
@@ -97,7 +97,7 @@
 		<span class="col-xs-12">Social Media Optimization</span>
 		<div class="container">
 		<img src="./img/redes-sociais.png" class="img-responsive col-xs-6" alt="[]" title="">
-		<p class="tagline col-xs-6">Estar presente nas redes sociais é importante e pode <strong>trazer mais visitantes ao seu site</strong>, utilizamos ferramentas que permitem saber <strong>quantas pessoas estão saindo da sua página no facebook e entrando no seu site</strong>, melhorando nossa estratégia e entendo cada vez mais o seu público</p>
+		<p class="tagline col-xs-6">Estar presente nas redes sociais é importante e pode <strong>trazer mais visitantes ao seu site</strong>, utilizamos ferramentas que permitem saber <strong>quantas pessoas estão saindo da sua página no facebook e entrando no seu site</strong>, melhorando nossa estratégia e entendendo cada vez mais o seu público</p>
 		</div>
 	</article>
 	<section id="email_marketing" class="row">
@@ -134,7 +134,7 @@
 		<p class="tagline">Texto do Higor Fernando</p>
 	</article>
 	<article id="analise">
-		<h1>Podemos fazer uma análise da sua página na internet</h1>
+		<h1>Podemos fazer uma análise do seu site</h1>
 		<p class="tagline">"Um site que não gera conteúdo de qualidade, também não gera resultados"</p>
 		<form>
 			<div>
@@ -145,12 +145,12 @@
 			    <label for="email">Seu email</label>
 			    <input type="email" class=" campo" id="email">
 			</div>
-			<button type="submit" class="btn btn-warning" >Quero que analisem minha página!</button>
+			<button type="submit" class="btn btn-info" >Quero uma análise!</button>
 			<p class="font-bold">***Estaremos enviando a análise e nenhum email a mais***</p>
 		</form>
 	</article>
 	<article class="row semsite">
-		<h1>Não Possui um site ou rede social?</h1>
+		<h1>Não Possui um site?</h1>
 		<p class="tagline">Enviamos nossa tabela de preços para você!</p>
 		<form>
 			<div>
@@ -187,11 +187,12 @@
 			<li>
 				<a href="#blog" title="Utilize blogs para melhorar sua presença na internet" alt="[Utilize blogs para melhorar sua presença na internet]">Blog</a>
 			</li>
-		</ul>		
+		</ul>
+		<img class="logo-rodape" src="./img/logo-rodape.fw.png" alt="[Logo Aqva]" title="Logo Aqva"><i class="fa fa-play-circle fa-5x"></i>
+		<div class="copyright">
+			<span>Todos os direitos reservados a Aqva - Agência WEB</span>
+		</div>
 	</nav>
-	<div class="copyright">
-		<span>Todos os direitos reservados a Aqva - Agência WEB</span>
-	</div>
 	<script src="./dist/jquery/jquery.js"></script>
 </body>
 </html>

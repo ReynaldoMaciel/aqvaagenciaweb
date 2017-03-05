@@ -1,5 +1,6 @@
 @import "./bootstrap";
 @import "./fontawesome";
+@import "./libs/AnimateCSS/animate";
 @import "./variables";
 @import "./helpers";
 @import "./overrides";
@@ -26,8 +27,13 @@
 	a{
 		color:$color1;
 	}
-	a:hover, a:focus {
-	    color: darken($color1, 10%);
+	.list_links a{
+		padding:8px 8px;
+		transition: .2s linear;
+	}
+	.list_links a:hover{
+		padding:16px 8px;
+	    background-color:darken($color3, 8%);
 	    text-decoration: none;
 	}
 	.item_title{
@@ -36,6 +42,16 @@
 		padding:15px 10px;
 		color:$color1;
 		text-transform: uppercase;
+	}
+	.special a{
+		color: white;
+		// font-weight: 600;
+		background-color:darken($color3, 13%);
+		padding:12px;
+		border-radius:7px;
+	}
+	.special a:hover{
+		background-color:darken($color3, 22%);
 	}
 }
 
@@ -207,7 +223,7 @@
 	.tagline{
 		margin-left: 30%;
 		width: 40%;
-		color:white;
+		color:$color3;
 		font-size:1.6em;
 	}
 	.campo{
@@ -220,19 +236,17 @@
 		color:black;
 		text-align: center;
 	}
-	.campo:hover, .campo:focus{
-		outline:darken($color3, 5%) solid thin;	
-	}
 	.btn{
-		background-color:lighten($color2, 4%);
-		color: black;
-		width: 40%;
+		background-color:$color3;
+		color: $color1;
+		text-transform: uppercase;
+		width: 380px;
 		height: 70px;
-		font-size: 2.1em;
+		font-size: 1.7em;
 		font-weight: 700;
 	}
 	.btn:hover{
-		background-color:$color2;
+		background-color:darken($color3, 7%);
 	}
 }
 .semsite{
@@ -256,11 +270,41 @@
 		color:black;
 		text-align: center;
 	}
+	label{
+		color:black;
+	}
 	.btn{
 		width: 269px;
 		height: 50px;
 		font-size: 1.7em;
 		font-weight: 500;
 		margin-bottom: 20px;
+	}
+}
+nav{
+	text-align: center;
+	padding-bottom:10px;
+	background-color:darken($color3, 40%);
+	ul{
+		list-style-type: none;
+		width:90%;
+		margin:0 5%;
+	}
+	li{
+		display: inline-block;
+		width: 12.5%;
+		font-weight: 600;
+		font-size: 1.2em;
+	}
+	.logo-rodape{
+		margin-top: 20px;
+		color:$color1;
+	}
+	.fa{
+		vertical-align: middle;
+		color:$color3;
+	}
+	.copyright{
+		color: $color3;
 	}
 }
