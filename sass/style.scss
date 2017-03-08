@@ -5,21 +5,37 @@
 @import "./helpers";
 @import "./overrides";
 
+.container{
+	h1{
+		font-size: 1.5em;
+		font-weight: 700;
+	}
+	p{
+		font-size: 0.9em;
+	}
+}
 .cabecalho{
 	padding:7px 100px;
 	font-weight:200;
 	background:url(../img/intro-bg.fw.png) fixed bottom no-repeat #000;
-	height:650px;
+	height:500px;
 	color:$color1;
 	border-bottom:20px darken($color3, 25%) solid;
 	.logo{
-		width:200px;
+		// width:200px;
 		display: inline-block;
+		max-width: 80px;
 	}
 	img{
 		height:auto;
 		width:100px;
 		color: $color1;
+	}
+	.fa-bars{
+		display: none;
+	}
+	.fa-bars:hover{
+		cursor:pointer;
 	}
 	.list_links{
 		float:right;
@@ -55,6 +71,9 @@
 	.special a:hover{
 		background-color:darken($color3, 26%);
 	}
+	.main_menu{
+		padding:7px;
+	}
 }
 .fixed{
 	position:fixed;
@@ -64,12 +83,11 @@
 	background-color:darken($color3, 10%);
 	z-index:99;
 }
-
 .banner{
 	width: 100%;
-	margin-top:150px;
+	margin-top:50px;
 	h1{
-		font-size: 8em;
+		font-size: 4em;
 		font-weight: 700;		
 		text-align: center;
 	}
@@ -88,40 +106,12 @@
 		height: 73px;
 		font-size: 4.6em;
 		font-weight: 300;
-		border-radius: 100%;
-		-webkit-border-radius: 100%;
-		-moz-border-radius: 100%;
-		border:2px $color1 solid;
-	}
-}
-.row{
-	max-width:100%;
-	h1{
-		margin-top: 0;		
-		padding-top:100px;
-		font-weight: bolder;
-		font-size: 3em;
-	}
-	p{		
-		font-size: 1.4em;
-	}
-	span{
-		font-weight: 600;
-		font-size: 1.2em;
-	}
-	.tagline{
-		margin-top:40px;
-	}
-	.content_image{
-		padding:10%;
+		
 	}
 }
 #SEO{
 	background-color:$color1;
 	color:$color3;
-	.content_text{
-		padding:10% 0% 10% 10%;
-	}
 	h1{
 		color:darken($color3, 15%);
 	}
@@ -129,113 +119,60 @@
 		color:darken($color3, 15%);
 	}
 	img{
-		width: 270px;
-		height: auto;
 		box-shadow: 0px 20px 20px #888888;
 	}
 }
 #SEM{
+	padding-bottom:40px;
 	border-top:20px darken($color3, 25%) solid;
 	background-color:$color3;
 	color:lighten(black, 20%);
-	.content_text{
-		padding:10% 10% 10% 0%;
-	}
 	img{
-		margin-top: 100px;
 		border:7px solid darken($color3, 35%);
 	}
 	box-shadow: 0px 20px 20px #888888;
 }
 #SMO{
-	text-align:center;
 	color:$color3;
 	margin-bottom:60px;
 	h1{
-		font-size: 3.2em;
 		color:darken($color3, 15%);
 	}
 	p{
-		text-align: left;
-		padding-left: 5%;
 		color:darken($color3, 15%);
-	}
-	span{
-		margin-bottom: 70px;
 	}
 }
 #email_marketing{
 	border-top:20px darken($color3, 25%) solid;
 	background-color:$color3;
-	text-align:center;	
 	box-shadow: 0px 20px 20px #888888;
 	padding-bottom:50px;
 	color:$color1;
-	.item{
-		width: 33%;
-		display: inline-block;
-	}
-	h1{
-		padding-top:20px;
-		// text-transform: uppercase;
+	.icon_email{
+		 height: 100px;
 	}
 	p{
-		margin-top: 20px;
-		width: 33%;
-		padding:10px;
 		color:darken($color1, 5%);
-		// margin-left: 25%;
-		display: inline-block;
-	}
-	img{		
-		height: 200px;
 	}
 }
-#landingpage{
-	text-align:center;
-	img{
-		width: 60%;
-	}
-	.tagline{
-		margin-left: 10%;
-		width: 80%;
-	}
-}
+// #landingpage{
+	
+// }
 #visibilidade{
-	border:30px darken($color3, 25%) solid;
+	padding:15px;
+	border-top:10px darken($color3, 25%) solid;
+	border-bottom:10px darken($color3, 25%) solid;
 	background-color:$color3;
 	color:$color1;
-	text-align:center;
-	margin-top:40px;
-	.content_text{
-		padding:20px 20% 80px;
-	}
 	box-shadow: 0px 20px 20px #888888;
 }
 #analise{
+	padding:30% 0px;
 	border-top:20px darken($color3, 5%) solid;
 	border-bottom:20px darken($color3, 5%) solid;
 	background:url(../img/form-bg.fw.png) center no-repeat;
-	text-align:center;
-	padding:200px 0  20px;
-	height:700px;
-	h1{
-		font-size: 3em;
-		font-weight: 700;
-		padding-top: 0px;
-		width: 70%;
-		margin-left: 15%;
-	}
 	label{
-		text-align: left;
-		margin-top: 20px;
 		color:darken(gray, 25%);
-	}
-	.tagline{
-		margin-left: 30%;
-		width: 40%;
-		color:$color3;
-		font-size:1.6em;
 	}
 	.campo{
 		border-radius:0;
@@ -251,9 +188,9 @@
 		background-color:$color3;
 		color: $color1;
 		text-transform: uppercase;
-		width: 380px;
+		width: 100%;
 		height: 70px;
-		font-size: 1.7em;
+		font-size: 1.4em;
 		font-weight: 700;
 	}
 	.btn:hover{
@@ -263,20 +200,13 @@
 .semsite{
 	background-color:darken($color3, 15%);
 	color:$color1;
-	padding-top:0;
-	text-align:center;
-	h1{
-		padding-top:20px;
-	}
-	.tagline{
-		margin-top: 0px;
-	}
+	padding:30px 0;
 	.campo{
 		border-radius:0;
 		-moz-border-radius:0;
 		-webkit-border-radius:0;
-		width: 70%;
-		margin:10px 15%;
+		width: 100%;
+		margin:10px 0;
 		padding:10px;
 		color:black;
 		text-align: center;
@@ -285,11 +215,12 @@
 		color:black;
 	}
 	.btn{
-		width: 269px;
+		width:170px;
 		height: 50px;
-		font-size: 1.7em;
+		font-size: 0.85em;
 		font-weight: 500;
 		margin-bottom: 20px;
+		text-transform: uppercase;
 	}
 }
 nav{
@@ -298,14 +229,16 @@ nav{
 	background-color:darken($color3, 40%);
 	ul{
 		list-style-type: none;
-		width:90%;
-		margin:0 5%;
+		width:100%;
+		padding-left:0px;
 	}
 	li{
+		text-decoration: underline;
 		display: inline-block;
-		width: 12.5%;
+		width: 100%;
 		font-weight: 600;
 		font-size: 1.2em;
+		margin-top:5px;
 	}
 	.logo-rodape{
 		margin-top: 20px;
@@ -319,3 +252,5 @@ nav{
 		color: $color3;
 	}
 }
+
+@import "./responsive";

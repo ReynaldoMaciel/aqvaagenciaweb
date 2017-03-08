@@ -1,5 +1,14 @@
+.container{
+	width:80%;
+	margin:0 10%;
+}
+.content_image{
+	img{
+		max-width:100%;
+	}
+}
 /*CENTRALIZADOR*/
-.align-center{display: block;margin: 0 auto;}
+.al-center{display: block;margin: 0 auto;}
 /*DISPLAYS*/
 .ds-block{display: block;}
 .ds-inline{display: inline;}

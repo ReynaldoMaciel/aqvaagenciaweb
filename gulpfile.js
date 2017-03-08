@@ -5,6 +5,11 @@ var sass = require('gulp-sass');
 
 var uglify = require('gulp-uglify');
 var pump = require('pump');
+
+gulp.task('all:watch', function () {
+  gulp.watch('./sass/**/*.scss', ['sass']);
+  gulp.watch('./js/**/*.js', ['minify:js']);
+});
  
 gulp.task('sass', function () {
   return gulp.src('./sass/**/*.scss')

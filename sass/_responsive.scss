@@ -1,0 +1,92 @@
+@media (min-width:315px) {
+	.container{
+		h1{
+			font-size: 1.9em;
+			font-weight: 700;
+		}
+		p{
+			font-size: 1.3em;
+		}
+	}
+	#SEO{
+		padding-top:40px;
+	}
+	#SMO{
+		padding-top:40px;
+		img{
+			padding:100px;
+		}
+	}
+}
+@media (min-width: 784px) {
+	.cabecalho{
+		height:650px;
+	}
+	.banner{
+		margin-top: 100px;
+		h1{
+			font-size: 7em;
+		}
+	}
+	#SEM{
+		padding:70px 0px;
+	}
+	#analise{
+		padding:100px 0px;
+		h1{
+			font-size: 4em;
+			margin-bottom: 50px;
+		}
+		p{
+			width: 80%;
+			margin:50px 10%;
+			font-size: 2.2em;
+		}
+		.btn{
+			width: 60%;
+			font-size:2em;
+			margin-bottom: 100px;
+		}
+	}
+	nav{
+		li{
+			display: inline-block;
+			width: 15%;
+		}
+	}
+}	
+
+
+@media (max-width: 1320px) {
+	.cabecalho{
+		.fa-bars{
+    		border: 2px solid white;
+    		float:right;
+    		display: block;
+		}
+	}
+	.list_links{
+		width: 100%;
+		text-align: center;
+		display: none;
+		background-color: $color3;
+		position: absolute;
+		left: 0;
+		z-index: 99;
+		top:73px;
+		.item{
+			width: 100%;
+			display: none;
+		}		
+	}
+	.fixed{
+		.fa-bars{
+			margin-top: 7px;
+		}
+	}
+}
+@media (max-width: 1000px) {
+	.cabecalho{
+		padding:7px 20px;		
+	}
+}

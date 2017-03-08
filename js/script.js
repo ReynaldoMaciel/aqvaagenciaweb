@@ -1,29 +1,16 @@
 jQuery(document).ready(function() {
-	setInterval(function(){ 
-		$('.main_menu .special').toggleClass('flash animated');		
-	}, 2000);
-	$('.main_menu .logo').addClass('bounceInLeft animated');
-	$('.main_menu .item_title').each(function(index, el) {
-		if ($(el).attr('class') != 'special') {
-			setTimeout(function () {
-				$(el).toggleClass('bounceIn animated');
-			},index * 150);
-		}		
+	
+	Animations();
+
+	$('.cabecalho .fa-bars').click(function () {
+		// console.log($('.list_links .item'));
+		$('.list_links .item').toggle('slow');
 	});
-	setTimeout(function () {
-		$('.banner h1').addClass('bounceInDown animated');
-	},100);
-	setTimeout(function () {
-		$('.banner .tagline').addClass('bounceInLeft animated');
-	},200);
-	setTimeout(function () {
-		$('.banner a').addClass('bounceInUp animated');
-	},300);
 
 	$('.banner a').click(function() {
 		var link = $(this).attr('href');
-		console.log(link);
-		console.log($(link).position().top);
+		// console.log(link);
+		// console.log($(link).position().top);
 		$('body').animate({scrollTop: $(link).position().top}, 1000);
 		return false;
 	});
@@ -31,9 +18,9 @@ jQuery(document).ready(function() {
 
 	$('.main_menu a').click(function() {
 		var link = $(this).attr('href');
-		console.log(link);
-		console.log($(link).position().top);
-		$('body').animate({scrollTop: $(link).position().top}, 1000);
+		// console.log(link);
+		// console.log($(link).position().top);
+		$('body').animate({scrollTop: $(link).position().top - 50}, 1000);
 		return false;
 	});
 
@@ -42,6 +29,9 @@ jQuery(document).ready(function() {
 			// console.log($(this).scrollTop());
 			$('.main_menu').addClass('fixed fadeIn animated');
 		}else{
+			$('.main_menu').removeClass('fixed fadeIn animated');
+		}
+		if($(this).scrollTop() >= $('#analise').position().top - 100){
 			$('.main_menu').removeClass('fixed fadeIn animated');
 		}
 
@@ -59,5 +49,28 @@ jQuery(document).ready(function() {
 		// }
 		
 	});
+
+	function Animations() {
+		$('.main_menu .logo').addClass('bounceInLeft animated');
+		$('.main_menu .item_title').each(function(index, el) {
+			if ($(el).attr('class') != 'special') {
+				setTimeout(function () {
+					$(el).toggleClass('bounceIn animated');
+				},index * 150);
+			}		
+		});
+		setTimeout(function () {
+			$('.banner h1').addClass('bounceInDown animated');
+		},100);
+		setTimeout(function () {
+			$('.banner .tagline').addClass('bounceInLeft animated');
+		},200);
+		setTimeout(function () {
+			$('.banner a').addClass('bounce animated');
+		},300);
+		setTimeout(function(){ 
+			$('.main_menu .special a').addClass('pulse animated');		
+		}, 400);
+	}
 
 });
