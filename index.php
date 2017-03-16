@@ -66,7 +66,8 @@
 
 		<article class="banner">
 			<h1>Aqva</h1>
-			<p class="tagline text-center">Criando estratégias para te ajudar a encontrar seu público</p>
+			<p class="tagline text-center">Criando estratégias para conectar a sua empresa ao público alvo.</p>
+ 
 			<a href="#SEO"><i class="fa fa-angle-double-down text-center"></i></a>
 		</article>
 	</div>
@@ -79,7 +80,7 @@
 			<div class="content_text col-xs-12 col-sm-6">
 				<h1>Otimização para mecânismos de busca </h1>
 				<span>Search Engine Optimization</span>
-				<p class="tagline"><strong>Fazer o Google entender o que o seu site contém</strong>  e sobre o que ele está falando é essencial para qualquer site, nós analizamos o seu código e melhoramos ele.</p>
+				<p class="tagline"><strong>Fazer o Google entender o que o seu site contém</strong>  e sobre o que ele está falando é essencial para qualquer site, nós analizamos o código do seu site e otimizamos suas regras.</p>
 				<p class="tagline"><strong>Cada degrau em que o seu site sobe nas buscas do Google</strong>, pode significar um aumento considerável de visitas no seu site.</p>
 			</div>	
 			<div class="content_image col-xs-12  col-sm-6">
@@ -168,7 +169,7 @@
 	<article id="blog" class="container">
 		<div class="row margintop4 marginbottom4">
 			<h1>Vale a pena ter um blog?</h1>
-			<p class="tagline">Texto do Higor Fernando</p>
+			<p class="tagline">Em que qualquer ramo de negócio e independentemente do tamanho, um blog pode fornecer uma estratégia de marketing digital muito importante que ajudará a consolidar seu produto e sua marca e consequentemente ampliará o seu alcance no mercado. Você não deve ter um blog somente porque seu concorrente tem, nem depositar sua criatividade apenas em redes sociais.</p>
 		</div>
 	</article>
 	<article id="analise">
