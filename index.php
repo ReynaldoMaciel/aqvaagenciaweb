@@ -201,7 +201,7 @@
 				<button type="button" class="btn btn-success">Me envie a cartilha!</button>
 			</form>
 		</div>
-	</article>
+	</article> 
 	<nav>
 		<h1 class="font0">Aqva - Agência Web</h1>
 	<ul class="row">
