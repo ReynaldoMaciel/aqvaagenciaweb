@@ -205,7 +205,7 @@
 	<nav>
 		<h1 class="font0">Aqva - Agência Web</h1>
 	<ul class="row">
-			<li class="col-xs-12 col-sm-2">
+			<li class="col-xs-12  col-sm-2">
 				<a href="#SEO" title="Otimize seu site para o Google e melhore sua posição nas buscas" 
 				alt="Otimize seu site para o Google e melhore sua posição nas buscas">SEO</a>
 			</li>
