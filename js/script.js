@@ -37,6 +37,8 @@ jQuery(document).ready(function() {
 		return false;
 	});
 
+	🐴
+
 	$(window).scroll(function() {
 		if($(this).scrollTop() >= $('#SEO').position().top){
 			// console.log($(this).scrollTop());
